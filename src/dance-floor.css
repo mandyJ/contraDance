@@ -1,35 +1,16 @@
-#dancer1_{
-    grid-area: dancer1;
-
-    -webkit-animation: cw-twirl 2s infinite; /* Safari 4+ */
-    -webkit-transform-origin: 50% 50%;
-}
-
-#dancer2_{
-    grid-area: dancer2;
-
-    -webkit-animation: ccw-twirl 2s infinite; /* Safari 4+ */
-    -webkit-transform-origin: 50% 50%;
-}
-
-
 #dance-floor {
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    width: 240px;
 
-    grid-template-areas:
-    "dancer1 dancer2 . ."
-    ". . . ."
-    ". . . ."
-    ". . . .";
+    display:grid;
+    grid-template-columns: repeat(12, 20px);
+    grid-template-rows: repeat(12, 20px);
 
     background-color: aquamarine;
 }
 
-#couple_{
-    -webkit-animation: cw-twirl 2s infinite; /* Safari 4+ */
-    -webkit-transform-origin: 50% 50%;
+#couple{
+    /*-webkit-animation: cw-twirl 2s infinite; !* Safari 4+ *!*/
+    /*-webkit-transform-origin: 50% 50%;*/
 }
 
 
