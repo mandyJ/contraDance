@@ -22,7 +22,7 @@ const DanceFloor = () => {
 
     return (
         <div id="dance-floor">
-            <Dancer id="dancer1" className="row1 col2"/>
+            <Dancer id="dancer1" className="row1 col1"/>
             <Dancer id="dancer2" className="row2 col1"/>
         </div>
     )

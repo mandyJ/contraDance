@@ -13,14 +13,18 @@
 }
 
 #dancer1{
-    transform: var(--dancer-9-oclock);
+    transform: var(--dancer-6-oclock);
+
+    -webkit-animation: moveDown 2s infinite; /* Safari 4+ */
 
     /*-webkit-animation: cw-twirl 2s infinite; !* Safari 4+ *!*/
-    /*-webkit-transform-origin: 50% 50%;*/
+    -webkit-transform-origin: 50% 50%;
 }
 
 #dancer2{
     transform: var(--dancer-12-oclock);
+
+    -webkit-animation: moveUp 2s infinite; /* Safari 4+ */
 
     /*-webkit-animation: ccw-twirl 2s infinite; !* Safari 4+ *!*/
     /*-webkit-transform-origin: 50% 50%;*/
