@@ -1,15 +1,16 @@
 export const floorUnit = {
-    atom: 20,
-    person: 120
+    atomPx: 20,
+    atomsPerPerson: 6,
+    personPx: () => {this.atomPx * this.atomsPerPerson}
 };
 
-export const floorPosition = (position) => {
+export const floorPositionInAtoms = (position) => {
     const column = Math.floor(position/2);
 
     const row = (position/2) > column ? 1 : 0;
 
     return {
-        x: floorUnit.person/2 + floorUnit.person * column,
-        y: floorUnit.person/2 + floorUnit.person * row
+        x: floorUnit.atomsPerPerson/2 + floorUnit.atomsPerPerson * column,
+        y: floorUnit.atomsPerPerson/2 + floorUnit.atomsPerPerson * row
     };
 };
