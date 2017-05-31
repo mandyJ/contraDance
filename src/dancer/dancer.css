@@ -1,0 +1,43 @@
+:root {
+    --dancer-12-oclock: rotate(0deg);
+    --dancer-3-oclock: rotate(90deg);
+    --dancer-6-oclock: rotate(180deg);
+    --dancer-9-oclock: rotate(270deg);
+}
+
+.dancer{
+    justify-self: center;
+    align-self: center;
+    grid-column-end: span 6;
+    grid-row-end: span 6;
+}
+
+#dancer1{
+    transform: var(--dancer-9-oclock);
+
+    /*-webkit-animation: cw-twirl 2s infinite; !* Safari 4+ *!*/
+    /*-webkit-transform-origin: 50% 50%;*/
+}
+
+#dancer2{
+    transform: var(--dancer-12-oclock);
+
+    /*-webkit-animation: ccw-twirl 2s infinite; !* Safari 4+ *!*/
+    /*-webkit-transform-origin: 50% 50%;*/
+}
+
+.row1{
+    grid-row-start: 1;
+}
+
+.row2{
+    grid-row-start: 7;
+}
+
+.col1 {
+    grid-column-start: 1;
+}
+
+.col2{
+    grid-column-start: 7;
+}

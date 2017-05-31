@@ -1,0 +1,13 @@
+export const position = {
+    zero: 1,
+    one: 2,
+    two: 3,
+    three: 4
+};
+
+export const direction = {
+    twelveOClock: 0, 
+    threeOClock: 1, 
+    sixOClock: 2, 
+    nineOClock: 3 
+};

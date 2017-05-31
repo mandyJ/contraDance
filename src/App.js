@@ -1,12 +1,9 @@
 import React from "react";
-import Dancer from "./Dancer";
-import "./dance-floor.css"
+
+import DanceFloor from "./danceFloor/DanceFloor";
 
 const App = () => (
-    <div id="dance-floor">
-            <Dancer id="dancer1"/>
-            <Dancer id="dancer2"/>
-    </div>
+    <DanceFloor/>
 );
 
 export default App;

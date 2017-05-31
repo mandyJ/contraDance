@@ -1,0 +1,16 @@
+import { direction } from "./orientationConstants";
+import { floorUnit } from "./../danceFloor/floorUnits";
+
+export const move = {
+    forward: (currentPosition, currentDirection, distance) => {
+        switch(currentDirection) {
+            case direction.twelveOClock:
+                
+            case direction.threeOClock:
+            case direction.sixOClock:
+            case direction.nineOClock:
+            
+        }
+    }
+
+};
